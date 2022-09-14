@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Linq
 {
@@ -6,7 +7,10 @@ namespace Linq
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Overview.Do();
+
+            Console.ReadLine();
         }
     }
 }
